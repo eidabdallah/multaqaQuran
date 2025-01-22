@@ -1,0 +1,128 @@
+.navbar {
+    background-color: rgb(80, 70, 18);
+}
+
+.logo img {
+    width: 50px;
+}
+
+.nav-item a:hover {
+    background-color: rgb(14, 13, 13);
+}
+
+.Multaqainfo {
+    background: linear-gradient(140deg, #ffffff 50%, rgb(80, 70, 18) 50%);
+}
+
+.Multaqainfo img , .athkars img{
+    width: 80px;
+}
+
+
+.swiper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.swiper-slide {
+    background-color: white;
+    box-shadow: 10px 4px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    border: 2px solid goldenrod;
+}
+
+.swiper-slide h5 {
+    font-size: 22.4px;
+    margin-bottom: 10px;
+}
+
+.swiper-slide p {
+    color: #555;
+}
+
+.swiper-slide-active {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.swiper-slide-prev,
+.swiper-slide-next {
+    opacity: 0.4;
+    transform: scale(0.95);
+}
+
+
+.athkars {
+    background: linear-gradient(140deg, rgb(80, 70, 18) 50%, #ffffff 50%);
+}
+.scrollable-content {
+    max-height: 200px; 
+    overflow-y: auto;
+}
+.scrollable-content::-webkit-scrollbar {
+    width: 8px;
+}
+.scrollable-content::-webkit-scrollbar-thumb {
+    background: #ffc107;
+    border-radius: 10px;
+}
+
+
+.prayerTime .time , .athkars .athkar {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.prayerTime .time:hover , .athkars .athkar:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+#currentTime {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f8d84e;
+    padding: 8px;
+    background-color: #424141;
+    border-radius: 5px;
+}
+
+
+
+
+.footer {
+    background-color: rgb(80, 70, 18);
+}
+
+.social-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(208, 208, 205);
+    font-size: 29px;
+    transition: background-color 0.3s, transform 0.3s;
+
+}
+
+.social-icon:hover {
+    background-color: white;
+    transform: scale(1.1);
+}
+
+.social-icon .fa-facebook-square {
+    color: #4267B2;
+}
+
+.social-icon .fa-youtube {
+    color: #FF0000;
+}
+
+.social-icon .fa-google {
+    color: #0F9D58;
+}

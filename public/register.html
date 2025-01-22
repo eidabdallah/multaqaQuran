@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ملتقى القرآن الكريم - جنة النجاح</title>
+    <link rel="icon" href="./../assets/public/logo.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.5.0/dist/sweetalert2.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./../assets/register/css/register.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <div class="logo d-flex align-items-center">
+                <img src="./../assets/public/logo.jpg" class="img-fluid rounded-circle" alt="logo">
+                <a class="navbar-brand fw-bold text-white ms-2" href="./../index.html">ملتقى القرآن الكريم - جنة النجاح</a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-white fw-bold border rounded-3" href="./../index.html">الصفحة الرئيسية</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+
+        <section class="register d-flex justify-content-center align-items-center p-5">
+            <div class="container d-flex justify-content-center align-items-center">
+                <div class="row shadow-lg rounded-3 bg-light w-75">
+                    <div class="col-md-6 p-5">
+                        <h2 class="text-center mb-4">إنشاء حساب</h2>
+                        <form class="RegisterForm">
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="floatingName"
+                                    placeholder="اسم الطالب الرباعي">
+                                <label for="floatingName">اسم الطالب</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInput"
+                                    placeholder="البريد الإلكتروني">
+                                <label for="floatingInput">البريد الإلكتروني</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="password" class="form-control" id="floatingPassword"
+                                    placeholder="كلمة المرور">
+                                <label for="floatingPassword">كلمة المرور</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="floatingPhone" placeholder="رقم الهاتف">
+                                <label for="floatingPhone">رقم الهاتف</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <select class="form-control" id="floatingGender">
+                                    <option hidden value="">اختر</option>
+                                    <option value="ذكر">ذكر</option>
+                                    <option value="أنثى">أنثى</option>
+                                </select>
+                                <label for="floatingGender">الجنس</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <select class="form-control" id="floatingCollege">
+                                    <option hidden value="">اختر</option>
+                                    <option value="الهندسة">الهندسة وتكنولوجيا المعلومات</option>
+                                    <option value="الطب">الطب وعلوم الصحة</option>
+                                    <option value="الإقتصاد">الأعمال والإتصال</option>
+                                    <option value="العلوم">العلوم</option>
+                                    <option value="الفنون">الفنون الجميلة</option>
+                                    <option value="التربية">العلوم الإنسانية والتروبوية</option>
+                                    <option value="الشريعة">الشريعة</option>
+                                    <option value="القانون">القانون والعلوم السياسية</option>
+                                    <option value="الزراعة">الزراعة والطب البيطري</option>
+                                </select>
+                                <label for="floatingCollege">الكلية</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <select class="form-control" id="floatingSpecialization">
+                                    <option hidden value="">اختر</option>
+                                    <option value="40"> كلية الدراسات العليا </option>
+                                    <option value="10201"> علوم حياتية </option>
+                                    <option value="10206"> الأحياء بيوتكنولوجيا </option>
+                                    <option value="10211"> الرياضيات </option>
+                                    <option value="10215"> الرياضيات وعلم البيانات </option>
+                                    <option value="10216"> الاحصاء </option>
+                                    <option value="10221"> الفيزياء </option>
+                                    <option value="10226"> فيزياء وفرعي الكترونيات </option>
+                                    <option value="10231"> الكيمياء </option>
+                                    <option value="10236"> كيمياء تطبيقية </option>
+                                    <option value="10246"> تقنيات التشخيص الجزيئي </option>
+                                    <option value="10301"> اللغة العربية وآدابها </option>
+                                    <option value="10306"> اللغة الإنجليزية وآدابها </option>
+                                    <option value="10307"> الدراسات الامريكية </option>
+                                    <option value="10311"> اللغة الفرنسية </option>
+                                    <option value="10316"> السياحة والآثار </option>
+                                    <option value="10321"> التاريخ </option>
+                                    <option value="10401"> فقه وتشريع </option>
+                                    <option value="10406"> أصول الدين (عام) </option>
+                                    <option value="10411"> شريعة ومصارف إسلامية </option>
+                                    <option value="10501"> معلم المرحلة الأساسية الدنيا </option>
+                                    <option value="10502"> التعليم الجامع والتربية الخاصة </option>
+                                    <option value="10506"> رياض الأطفال </option>
+                                    <option value="10511"> معلم المرحلة الأساسية العليا _ تعليم الرياضيات </option>
+                                    <option value="10512"> معلم المرحلة الأساسية العليا _ تعليم العلوم </option>
+                                    <option value="10513"> معلم المرحلة الأساسية العليا _ تعليم اللغة العربية </option>
+                                    <option value="10514"> معلم المرحلة الأساسية العليا _تعليم اللغة الانجليزية</option>
+                                    <option value="10515"> معلم المرحلة الأساسية العليا _ تعليم الاجتماعيات </option>
+                                    <option value="10516"> معلم المرحلة الأساسية العليا _ تعليم التكنولوجيا </option>
+                                    <option value="10531"> التربية الرياضية </option>
+                                    <option value="10535"> التدريب الرياضي </option>
+                                    <option value="10536"> التربية الرياضية- التدريب الرياضي </option>
+                                    <option value="10537"> التربية البدنية والصحية </option>
+                                    <option value="10544"> دبلوم التأهيل التربوي </option>
+                                    <option value="10601"> الهندسة المدنية </option>
+                                    <option value="10602"> هندسة الجيوماتيكس </option>
+                                    <option value="10606"> الهندسة المعمارية </option>
+                                    <option value="10611"> هندسة البناء </option>
+                                    <option value="10616"> هندسة التخطيط العمراني </option>
+                                    <option value="10617"> هندسة التخطيط وتكنولوجيا المدن </option>
+                                    <option value="10621"> الهندسة الميكانيكية </option>
+                                    <option value="10626"> الهندسة الكيميائية </option>
+                                    <option value="10631"> الهندسة الصناعية </option>
+                                    <option value="10636"> هندسة الحاسوب </option>
+                                    <option value="10641"> الهندسة الكهربائية </option>
+                                    <option value="10646"> هندسة الاتصالات </option>
+                                    <option value="10647"> هندسة الشبكات والأنظمة الذكية </option>
+                                    <option value="10651"> هندسة الميكاترونكس </option>
+                                    <option value="10656"> هندسة الطاقة والبيئة </option>
+                                    <option value="10661"> هندسة المواد </option>
+                                    <option value="10671"> علم الحاسوب </option>
+                                    <option value="10672"> علم الحاسوب في سوق العمل </option>
+                                    <option value="10676"> أنظمة المعلومات الإدارية </option>
+                                    <option value="10681"> أنظمة المعلومات الحاسوبية </option>
+                                    <option value="10686"> الشبكات وأمن المعلومات </option>
+                                    <option value="10687"> الأمن السيبراني </option>
+                                    <option value="10701"> مسارعلوم طبية حيوية </option>
+                                    <option value="10702"> الطب البشري </option>
+                                    <option value="10703"> استدراكي علوم طبية حيوية </option>
+                                    <option value="10706"> الصيدلة </option>
+                                    <option value="10707"> دكتور صيدلي </option>
+                                    <option value="10711"> البصريات </option>
+                                    <option value="10716"> التمريض </option>
+                                    <option value="10717"> القبالة </option>
+                                    <option value="10721"> العلوم الطبية المخبرية </option>
+                                    <option value="10726"> التصوير الطبي </option>
+                                    <option value="10731"> علوم السمع والنطق </option>
+                                    <option value="10736"> العلاج الطبيعي </option>
+                                    <option value="10741"> التروية القلبية </option>
+                                    <option value="10742"> التخدير والإنعاش التقني </option>
+                                    <option value="10743"> العناية التنفسية </option>
+                                    <option value="10751"> مستحضرات تجميل والعناية بالبشرة </option>
+                                    <option value="10756"> التغذية السريرية </option>
+                                    <option value="10761"> دكتور في طب وجراحة الأسنان </option>
+                                    <option value="10766"> إدارة المعلومات الصحية </option>
+                                    <option value="10767"> صحة الاسنان </option>
+                                    <option value="10768"> تكنولوجيا مختبرات الأسنان </option>
+                                    <option value="10801"> الاقتصاد </option>
+                                    <option value="10806"> العلوم السياسية </option>
+                                    <option value="10807"> العلوم السياسية وإدارة الدولة </option>
+                                    <option value="10811"> الجغرافيا </option>
+                                    <option value="10816"> علم الاجتماع والخدمة الاجتماعية </option>
+                                    <option value="10821"> الحقوق </option>
+                                    <option value="10822"> الإدارة العامة </option>
+                                    <option value="10826"> علم الجريمة </option>
+                                </select>
+                                <label for="floatingSpecialization">التخصص</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <select class="form-control" id="floatingPlan">
+                                    <option hidden value="">اختر</option>
+                                    <option value="عادي">عادي</option>
+                                    <option value="تثبيت">تثبيت</option>
+                                    <option value="تجويد">تجويد</option>
+                                    <option value="حفظ">حفظ القرآن بسنة</option>
+                                </select>
+                                <label for="floatingPlan">الخطة</label>
+                            </div>
+                            <button type="submit" class="btn btn-dark w-100">إنشاء حساب</button>
+                        </form>
+                        <p class="text-center mt-3">لدي حساب بالفعل؟ <a href="./login.html">تسجيل دخول</a></p>
+                    </div>
+                    <div class="col-md-6 d-none d-md-flex align-items-center">
+                        <img src="./../assets/public/logo.jpg" alt="login image"
+                            class="img-fluid rounded-start w-100 h-100">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer class="footer p-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 d-flex flex-column fw-bold text-white">
+                    <h4 class="mb-3">اتصل بنا :</h4>
+                    <h5 class="mb-2">جامعة النجاح الوطنية - الحرم الجامعي القديم - كلية الشريعة </h5>
+                    <p class="mb-2">هاتف : 3115432 9 972+</p>
+                    <p class="mb-2">بريد الكتروني : <a href="mailto:shar@najah.edu" class="text-white">shar@najah.edu</a></p>
+                    <h4 class="fw-bold mt-5 mb-4">مواقعنا : </h4>
+                    <div class="social-media d-flex gap-3">
+                        <a href="https://www.facebook.com/profile.php?id=100057400271405" target="_blank"
+                            class="social-icon d-flex align-items-center justify-content-center text-decoration-none">
+                            <i class="fab fa-facebook-square"></i>
+                        </a>
+                        <a href="https://www.youtube.com/@%D9%85%D9%84%D8%AA%D9%82%D9%89%D8%A7%D9%84%D9%82%D8%B1%D8%A2%D9%86%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85%D8%AC%D8%A7%D9%85%D8%B9%D8%A9%D8%A7%D9%84%D9%86%D8%AC%D8%A7%D8%AD%D8%A7%D9%84"
+                            target="_blank"
+                            class="social-icon d-flex align-items-center justify-content-center text-decoration-none">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="https://shariah.najah.edu/ar/holy-quran-forum/about/#:~:text=%D9%85%D8%B4%D8%B1%D9%88%D8%B9%D9%8F%20%D9%85%D9%84%D8%AA%D9%82%D9%89%20%D8%A7%D9%84%D9%82%D8%B1%D8%A2%D9%86%D9%90%20%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85%D8%8C%20%D9%81%D8%B1%D9%8A%D8%AF%D9%8D%20%D9%85%D9%86%20%D9%86%D9%88%D8%B9%D9%87%D9%90%20%D8%B9%D9%84%D9%89,%D9%85%D8%AD%D9%81%D8%B2%D9%90%20%D9%83%D8%AA%D8%A7%D8%A8%D9%90%20%D8%A7%D9%84%D9%84%D9%87%D9%90%20%D8%B9%D8%B2%D9%91%D9%8E%20%D9%88%D8%AC%D9%84%D9%91%D8%8C%20%D9%88%D8%AA%D8%AF%D8%A7%D8%B1%D9%8F%D8%B3%D9%90%D9%87%20%D9%81%D9%8A%D9%85%D8%A7%20%D8%A8%D9%8A%D9%86%D9%87%D9%85."
+                            target="_blank"
+                            class="social-icon d-flex align-items-center justify-content-center text-decoration-none">
+                            <i class="fab fa-google"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 text-white mt-5">
+                    <h4 class="fw-bold mb-3">موقعنا على الخريطة:</h4>
+                    <div class="map-container rounded overflow-hidden" style="box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1426.4964045334373!2d35.24509125076534!3d32.22036743480822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151ce171d62cd4d1%3A0x99770bea91fee492!2z2KzYp9mF2LnYqSDYp9mE2YbYrNin2K0g2KfZhNmI2LfZhtmK2KkgLSDYp9mE2K3YsdmFINin2YTZgtiv2YrZhQ!5e0!3m2!1sar!2s!4v1732614187005!5m2!1sar!2s"
+                            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.5.0/dist/sweetalert2.min.js"></script>
+    <script src="./../assets/register/js/register.js"></script>
+</body>
+
+</html>

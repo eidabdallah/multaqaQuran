@@ -1,0 +1,65 @@
+
+.navbar {
+    background-color: rgb(80, 70, 18);
+}
+
+.logo img {
+    width: 50px;
+}
+
+.nav-item a:hover {
+    background-color: rgb(14, 13, 13);
+}
+
+
+.login {
+    background-color: rgb(240, 240, 240);
+}
+.btn {
+    background-color: rgb(80, 70, 18);
+    border: none;
+}
+
+.btn:hover {
+    background-color: rgb(60, 50, 10);
+}
+
+.forget{
+    color: rgb(80, 70, 18);
+}
+.form-floating label {
+    right: 0;
+    left: auto;
+    text-align: right;
+}
+
+.footer {
+    background-color: rgb(80, 70, 18);
+}
+
+.social-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color:  rgb(208, 208, 205);
+    font-size: 29px;
+    transition: background-color 0.3s, transform 0.3s;
+
+}
+
+.social-icon:hover {
+    background-color: white;
+    transform: scale(1.1);
+}
+
+.social-icon .fa-facebook-square {
+    color: #4267B2;
+}
+
+.social-icon .fa-youtube {
+    color: #FF0000;
+}
+
+.social-icon .fa-google {
+    color: #0F9D58;
+}

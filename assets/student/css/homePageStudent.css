@@ -1,0 +1,93 @@
+body {
+    background-color: #ffffff;
+}
+
+.navbar {
+    background-color: rgb(80, 70, 18);
+}
+
+.logo img {
+    width: 50px;
+}
+
+.nav-item a:hover {
+    background-color: rgb(14, 13, 13);
+}
+
+
+
+
+.progress-circle {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.title p {
+    color: rgb(80, 70, 18);
+}
+
+.list-group-item {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.list-group-item:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.result {
+    border-radius: 20px;
+}
+
+ul.list-group {
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+.part {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: conic-gradient(rgb(201, 191, 144) 0% 60%, #e9ecef 40%);
+}
+
+.page {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: conic-gradient(rgb(201, 191, 144) 0% 67.6%, #e9ecef 25%);
+}
+
+
+.table th, .table td {
+    padding: 20px;
+    vertical-align: middle;
+}
+
+.table th {
+    background-color: rgb(80, 70, 18);
+}
+
+
+
+.table tr:nth-child(even) td {
+    background-color: #f1f1f1;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 5px 10px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover {
+    background-color: #0b0505;
+    color: white;
+}
+
+
+
