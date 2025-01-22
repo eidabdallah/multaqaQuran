@@ -81,9 +81,6 @@ function redirectToPage(user) {
         case "student":
             window.location.href = `${basePath}/student/student.html`;
             break;
-        case "doctor":
-            window.location.href = `${basePath}/doctor/doctor.html`;
-            break;
     }
 }
 
